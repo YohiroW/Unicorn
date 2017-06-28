@@ -1,0 +1,850 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"say",
+				"sayhello"
+			],
+			[
+				"inc",
+				"inc\t#include <…>"
+			],
+			[
+				"v",
+				"vec4"
+			],
+			[
+				"si",
+				"size_t"
+			],
+			[
+				"de",
+				"delete"
+			],
+			[
+				"elem",
+				"elemDriven"
+			],
+			[
+				"bo",
+				"bottleLeft"
+			],
+			[
+				"ca",
+				"capLeft"
+			],
+			[
+				"show",
+				"showDeathSummary(show)\tMainScene"
+			],
+			[
+				"score",
+				"self.score\t."
+			],
+			[
+				"schedu",
+				"schedule(callback, interval)\tNode"
+			],
+			[
+				"texc",
+				"texcoord"
+			],
+			[
+				"tex",
+				"texCoords"
+			],
+			[
+				"norm",
+				"normalize"
+			],
+			[
+				"diff",
+				"diffTex"
+			],
+			[
+				"nor",
+				"normalize"
+			],
+			[
+				"a",
+				"amibentMaterial"
+			],
+			[
+				"vec",
+				"vec4"
+			],
+			[
+				"diffuse",
+				"diffuseLight"
+			],
+			[
+				"setRotat",
+				"setRotation(rotation)\tNode"
+			],
+			[
+				"getPositi",
+				"getPositionX()\tUILayout"
+			],
+			[
+				"table",
+				"table.values(hashtable)\t."
+			],
+			[
+				"displa",
+				"display.cx\t."
+			],
+			[
+				"Fad",
+				"FadeTo\t."
+			],
+			[
+				"setSca",
+				"setScale(s)\tParticleSystem"
+			],
+			[
+				"stringF",
+				"string.format(formatstring,···)"
+			],
+			[
+				"reset",
+				"resetStickAndHero()\tMainScene"
+			],
+			[
+				"Move",
+				"MoveBy:create(duration, deltaPosition)\t."
+			],
+			[
+				"selfpl",
+				"self.platform\t."
+			],
+			[
+				"Mov",
+				"MoveTo:create(duration, position)\t."
+			],
+			[
+				"else",
+				"elseif\telseif"
+			],
+			[
+				"BB_",
+				"BB_ELASTICITY\t."
+			],
+			[
+				"dis",
+				"display.cy\t."
+			],
+			[
+				"disp",
+				"display.cx\t."
+			],
+			[
+				"GameS",
+				"GameState.load()\t."
+			],
+			[
+				"displ",
+				"display.cy\t."
+			],
+			[
+				"getScla",
+				"getScaleX()\tNode"
+			],
+			[
+				"getposi",
+				"getPositionX()\tNode"
+			],
+			[
+				"Del",
+				"DelayTime:create(d)\t."
+			],
+			[
+				"getCons",
+				"getContentSize()\tTexture2D"
+			],
+			[
+				"hero",
+				"heroX\t."
+			],
+			[
+				"getPox",
+				"getPositionX()\tUILayout"
+			],
+			[
+				"getPosi",
+				"getPositionY()\tUIStretch"
+			],
+			[
+				"off",
+				"offSetHero\t."
+			],
+			[
+				"getpos",
+				"getPositionX()\tNode"
+			],
+			[
+				"getPo",
+				"getPositionX()\tUILayout"
+			],
+			[
+				"getSca",
+				"getScaleY()\tGLView"
+			],
+			[
+				"getPos",
+				"getPositionX()\tUIStretch"
+			],
+			[
+				"getPosti",
+				"getPositionY()\tNode"
+			],
+			[
+				"abs",
+				"math.abs(x)"
+			],
+			[
+				"e",
+				"end()\tRenderTexture"
+			],
+			[
+				"last",
+				"lastPlatform\t."
+			],
+			[
+				"getScal",
+				"getScaleX()\tNode"
+			],
+			[
+				"getConte",
+				"getContentSize()\tNode"
+			],
+			[
+				"getPosition",
+				"getPositionX()\tNode"
+			],
+			[
+				"getSc",
+				"getScaleX()\tGLView"
+			],
+			[
+				"setRota",
+				"setRotation(rotation)\tNode"
+			],
+			[
+				"getP",
+				"getPositionX()\tNode"
+			],
+			[
+				"generate",
+				"genereateNextPlatform()\tMainScene"
+			],
+			[
+				"setScal",
+				"setScaleX(scaleX)\tNode"
+			],
+			[
+				"getContent",
+				"getContentSize()\tTexture2D"
+			],
+			[
+				"rele",
+				"releaseStick()\tMainScene"
+			],
+			[
+				"heo",
+				"hero\t."
+			],
+			[
+				"stick",
+				"self.stick\t."
+			],
+			[
+				"setPos",
+				"setPosition(x, y)\tNode"
+			],
+			[
+				"tr",
+				"true"
+			],
+			[
+				"getScale",
+				"getScaleX()\tNode"
+			],
+			[
+				"self",
+				"self.platform\t."
+			],
+			[
+				"setVis",
+				"setVisible(visible)\tNode"
+			],
+			[
+				"neex",
+				"nextScene\t."
+			],
+			[
+				"background",
+				"backgroundLayer"
+			],
+			[
+				"ccc3",
+				"cc.c4bFromc3b(c)\t."
+			],
+			[
+				"addSpri",
+				"addSpriteFrameWithFile(filename)\tAnimation"
+			],
+			[
+				"addS",
+				"addSpriteFrame(frame)\tAnimation"
+			],
+			[
+				"anima",
+				"animation\t."
+			],
+			[
+				"An",
+				"Animation\t."
+			],
+			[
+				"fra",
+				"frameName\t."
+			],
+			[
+				"Repet",
+				"RepeatForever:create(action)\t."
+			],
+			[
+				"Fade",
+				"FadeTo\t."
+			],
+			[
+				"radom",
+				"math.randomseed(x)"
+			],
+			[
+				"rando",
+				"math.randomseed(x)"
+			],
+			[
+				"Rota",
+				"RotateBy:create(duration, deltaAngle3D)\t."
+			],
+			[
+				"gunPw",
+				"gunPowderAttr"
+			],
+			[
+				"gunPow",
+				"gunPowderAttr"
+			],
+			[
+				"gunPowder",
+				"gunPowderAttr"
+			],
+			[
+				"scheduler",
+				"scheduler.scheduleUpdateGlobal(listener)\t."
+			],
+			[
+				"setPosition",
+				"setPosition(x, y)\tUILayout"
+			],
+			[
+				"gunp",
+				"gunPowderAttr"
+			],
+			[
+				"backgroun",
+				"backgroundLayer"
+			],
+			[
+				"gunpow",
+				"gunPowder"
+			],
+			[
+				"setPosi",
+				"setPosition(x, y)\tUIStretch"
+			],
+			[
+				"update",
+				"update(dt)\tTimer"
+			],
+			[
+				"reur",
+				"return"
+			],
+			[
+				"backgrou",
+				"backgroundLayer"
+			],
+			[
+				"addT",
+				"addTo(target)\tActionBuilder"
+			],
+			[
+				"rand",
+				"math.randomseed(x)"
+			],
+			[
+				"setFile",
+				"setFlippedX(flippedX)\tSprite"
+			],
+			[
+				"sel",
+				"self.isAttack\t."
+			],
+			[
+				"getB",
+				"getButton()\tTestScene"
+			],
+			[
+				"setTex",
+				"setTexture(texture)\tSprite"
+			],
+			[
+				"setFil",
+				"setFlippedX(flippedX)\tSprite"
+			],
+			[
+				"isFi",
+				"isFlippedX()\tSprite"
+			],
+			[
+				"keyboa",
+				"keyboardCallback"
+			],
+			[
+				"addSpr",
+				"addSpriteFrameWithFile(filename)\tAnimation"
+			],
+			[
+				"EaseEx",
+				"EaseExponentialOut\t."
+			],
+			[
+				"EaseE",
+				"EaseExponentialIn\t."
+			],
+			[
+				"Jum",
+				"JumpBy\t."
+			],
+			[
+				"Ease",
+				"EaseElasticIn\t."
+			],
+			[
+				"class",
+				"class(classname, super)\t."
+			],
+			[
+				"Blink",
+				"Blink:create(duration, blinks)\t."
+			],
+			[
+				"ac",
+				"ac1\t."
+			],
+			[
+				"EaseAction",
+				"EaseCubicActionOut\t."
+			],
+			[
+				"Eas",
+				"EaseBounce\t."
+			],
+			[
+				"run",
+				"runAction(action)\tNode"
+			],
+			[
+				"Rote",
+				"RotateBy:create(duration, deltaAngle3D)\t."
+			],
+			[
+				"Sp",
+				"Spawn\t."
+			],
+			[
+				"spe",
+				"specular"
+			],
+			[
+				"ligh",
+				"lightColor"
+			],
+			[
+				"view",
+				"viewDir"
+			],
+			[
+				"light",
+				"lightDir"
+			],
+			[
+				"f",
+				"FragPos"
+			],
+			[
+				"vie",
+				"viewPosition"
+			],
+			[
+				"Ske",
+				"SkewBy\t."
+			],
+			[
+				"Sho",
+				"Show:create()\t."
+			],
+			[
+				"scale",
+				"scaleBy(time, scale)\tNode"
+			],
+			[
+				"Pla",
+				"Place:create(pos)\t."
+			],
+			[
+				"ru",
+				"runAction(action)\tNode"
+			],
+			[
+				"remove",
+				"removeFromParent()\tNode"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "chin",
+		"selected_items":
+		[
+			[
+				"chin",
+				"Unicode: Unicode To Chinese Characters"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"Chin",
+				"ConvertToUTF8: Reload with Encoding"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 432.0
+	},
+	"console":
+	{
+		"height": 174.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/E/VSProjects/Unicorn/Unicorn/shaders/phongFrag.frag",
+		"/E/VSProjects/OpenGLwithGLFW/Include/glm/detail/type_mat4x3.hpp",
+		"/E/VSProjects/OpenGLwithGLFW/Include/glm/matrix.hpp",
+		"/E/VSProjects/OpenGLwithGLFW/Include/glm/gtx/hash.hpp",
+		"/E/VSProjects/OpenGLwithGLFW/Include/glm/mat3x4.hpp",
+		"/C/Users/Administrator/Desktop/CppReview/extern/ext1.cpp",
+		"/C/Users/Administrator/Desktop/CppReview/friendX/src.cpp",
+		"/E/VSProjects/OpenGLwithGLFW/Include/glm/common.hpp",
+		"/E/VSProjects/cppHub/TestFunc/源.cpp",
+		"/E/VSProjects/OpenGLwithGLFW/Include/glm/gtx/normal.hpp",
+		"/E/VSProjects/OpenGLwithGLFW/Include/glm/vec4.hpp",
+		"/D/GeometricTools/WildMagic5/wm5path.txt",
+		"/E/VSProjects/OpenGLwithGLFW/Include/glm/mat4x4.hpp",
+		"/E/迅雷下载/人间失格.txt",
+		"/E/迅雷下载/21331405435359.txt",
+		"/D/用户目录/下载/《毛泽东选集》---全集.txt",
+		"/E/VSProjects/GAME_PACKAGE_MAKER/UNPACK/info.txt",
+		"/E/VSProjects/GAME_PACKAGE_MAKER/UNPACK/ReadMe.txt",
+		"/F/cocosProject3.2/_a_Star/Classes/AppDelegate.cpp",
+		"/E/VSProjects/Unicorn/Unicorn/shaders/phongVertex.vs",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/advanced.vs",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/advanced.frag",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/skybox.vs",
+		"/D/用户目录/下载/麦克白.txt",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/fragmentShader.frag",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/phongFrag.frag",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/advance.vs",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/advance.frag",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/advanced - 副本.vs",
+		"/D/用户目录/下载/新史太阁记-司马辽太郎.txt",
+		"/F/cocosProject3.2/_a_Star/Classes/HelloWorldScene.cpp",
+		"/C/Users/Administrator/Desktop/小说/德川家康/德川家康（01）.txt",
+		"/D/用户目录/下载/《织田信长》山冈庄八.txt",
+		"/F/Dreamtale/Dreamtale_Data/output_log.txt",
+		"/F/BaiduYunDownload/使用说明.txt",
+		"/C/Users/Administrator/Desktop/vavava/Visual Assist X 破解说明.txt",
+		"/C/Users/Administrator/Desktop/del.bat",
+		"/C/Users/Administrator/Desktop/Visual Assist X 破解说明.txt",
+		"/C/Program Files (x86)/Microsoft Visual Studio 11.0/VC/lib/glew32.lib",
+		"/C/Program Files (x86)/Microsoft Visual Studio 11.0/VC/include/gl/glut.h",
+		"/E/VSProjects/Unicorn/Unicorn/shaders/mutiLightFrag.frag",
+		"/C/Program Files (x86)/Microsoft Visual Studio 11.0/VC/include/gl/glew.h",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/models/agatha.obj",
+		"/C/Users/Administrator/Desktop/逐鹿-设定.txt",
+		"/G/GHO/Readme.txt",
+		"/G/ISO/Readme.txt",
+		"/E/UnrealEngine-4.3.0-release/Engine/Source/Runtime/UE4Game/Private/UE4Game.cpp",
+		"/E/VSProjects/cppHub/cppHub/src.cpp",
+		"/E/VSProjects/Unicorn/Unicorn/shaders/rimShader.frag",
+		"/E/VSProjects/Unicorn/Unicorn/shaders/blending.frag",
+		"/E/lua_stickHero/StickHero/frameworks/cocos2d-x/cocos/editor-support/cocostudio/CSParseBinary_generated.h",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/pencilSketch.frag",
+		"/E/VSProjects/OpenGLwithGLFW/GL_HIGHLEVEL_LIGHT/shaders/mutiLightFrag.frag",
+		"/E/VSProjects/Web_FinalWork/WebFinalWork/WebFinalWorkDlg.cpp",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/phongVertex.vs",
+		"/C/Users/Administrator/Desktop/src.cpp",
+		"/C/Users/Administrator/Desktop/CppReview/extern/ext1",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/pencilSketch.vs",
+		"/E/C++ primer/TestForPoint.cpp",
+		"/E/C++ primer/3-24.cpp",
+		"/C/Users/Administrator/Desktop/Visual Studio 2012.lnk",
+		"/F/workRef/os/os1_2013053036_王宇浩.txt",
+		"/C/Users/Administrator/Desktop/红楼梦.txt",
+		"/D/用户目录/下载/10481408087720.txt",
+		"/E/VSProjects/Web_FinalWork/WebFinalWork/UdpClient.h",
+		"/E/VSProjects/Web_FinalWork/WebFinalWork/WebFinalWorkDlg.h",
+		"/E/VSProjects/Web_FinalWork/WebFinalWork/Config.h",
+		"/E/VSProjects/Web_FinalWork/WebFinalWork/UdpClient.cpp",
+		"/E/VSProjects/p2p/p2p/UDPSocket.cpp",
+		"/E/VSProjects/p2p/p2p/UDPSocket.h",
+		"/E/VSProjects/filecCopy/filecCopy/filecCopyDlg.cpp",
+		"/E/VSProjects/FileSample/FileSample/FileSample.cpp",
+		"/E/VSProjects/FileSample/FileSample/UDPSocket.h",
+		"/E/VSProjects/FileSample/FileSample/UDPSocket.cpp",
+		"/E/VSProjects/Web_FinalWork/WebFinalWork/Config.cpp",
+		"/E/VSProjects/Web_FinalWork/WebFinalWork/UserManager.cpp",
+		"/C/Users/Administrator/Desktop/新建文本文档.txt",
+		"/E/2K/NBA 2K14/Read Me.txt",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/screenShader.vs",
+		"/C/Users/Administrator/Desktop/note.txt",
+		"/D/用户目录/我的文档/Tencent Files/281678310/FileRecv/关于4个文档的打印、提交时间等注意事项-鄢老师 (1).txt",
+		"/C/Users/Administrator/Desktop/哈神名单v7地址/哈神v7地址/哈神名单补丁包.txt",
+		"/C/Users/Administrator/Desktop/哈神名单v7地址/哈神v7地址/名单使用方法.txt",
+		"/E/2K/NBA 2K14/Readme_TChinese.txt",
+		"/C/Users/Administrator/Desktop/[bbs.eyeuc.com] KKA Roster/说明 解压密码 配套文件下载！！.txt",
+		"/D/用户目录/我的文档/Tencent Files/281678310/FileRecv/关于4个文档的打印、提交时间等注意事项-鄢老师.txt",
+		"/C/Users/Administrator/Desktop/Postgraduate/Math/新建文本文档 (1)/新建文本文档.txt",
+		"/C/Users/Administrator/Desktop/九州志系列典藏版/实体书合集/九州.一生之盟.txt",
+		"/C/Users/Administrator/Desktop/九州志系列典藏版/中短篇合集/九州.商博良.txt",
+		"/C/Users/Administrator/Desktop/九州志系列典藏版/今何在/今何在：《九州·海上牧云记》.txt",
+		"/C/Users/Administrator/Desktop/Battle.net.lnk",
+		"/C/Users/Administrator/Desktop/九州志系列典藏版/中短篇合集/九州.乱世同盟成员.txt",
+		"/C/Users/Administrator/Desktop/九州志系列典藏版/江南/《九州缥缈录·别传》/九州缥缈录·最后的姬武神.txt",
+		"/C/Users/Administrator/Desktop/九州志系列典藏版/江南/《九州缥缈录·别传》/九州缥缈录·燕子焚.txt",
+		"/C/Users/Administrator/Desktop/九州志系列典藏版/杂/唐七公子：《九州·华胥引》.txt",
+		"/C/Users/Administrator/Desktop/九州志系列典藏版/中短篇合集/九州.九州编年史.txt",
+		"/F/neko/说明.txt",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/screenShader.frag",
+		"/D/用户目录/下载/29172.txt",
+		"/D/用户目录/下载/白鲸%28梅尔维尔著%29.txt",
+		"/D/用户目录/下载/《黑桃皇后》普希金.txt",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/vertexSketch.vs",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/vertexSketch.frag",
+		"/F/cocosProject3.2/mBox2D_GurdballMachine/Classes/GPlatform.cpp",
+		"/E/lua_stickHero/StickHero/src/app/scenes/MainScene.lua",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/ConvertToUTF8.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/ConvertToUTF8/ConvertToUTF8.sublime-settings",
+		"/E/proj_quick/yohiro/src/app/scenes/MainScene.lua",
+		"/C/Users/Administrator/Desktop/公司及个人信息.txt",
+		"/D/用户目录/我的文档/Tencent Files/281678310/FileRecv/公司及个人信息.txt",
+		"/F/ogl-OpenGL-tutorial_0015_33/tutorial08_basic_shading/tutorial08.cpp",
+		"/E/lua_stickHero/StickHero/src/config.lua",
+		"/F/ogl-OpenGL-tutorial_0015_33/tutorial08_basic_shading/StandardShading.vertexshader",
+		"/F/ogl-OpenGL-tutorial_0015_33/tutorial08_basic_shading/StandardShading.fragmentshader",
+		"/F/ogl-OpenGL-tutorial_0015_33/tutorial14_render_to_texture/WobblyTexture.fragmentshader",
+		"/F/ogl-OpenGL-tutorial_0015_33/tutorial14_render_to_texture/StandardShadingRTT.vertexshader",
+		"/F/ogl-OpenGL-tutorial_0015_33/tutorial14_render_to_texture/StandardShadingRTT.fragmentshader",
+		"/F/ogl-OpenGL-tutorial_0015_33/tutorial14_render_to_texture/Passthrough.vertexshader",
+		"/F/ogl-OpenGL-tutorial_0015_33/tutorial14_render_to_texture/tutorial14.cpp",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/shader.frag",
+		"/C/Users/Administrator/Desktop/jsTest/prac.html",
+		"/C/Users/Administrator/Desktop/jsTest/t.js",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/light.frag",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/rimShader.vs",
+		"/E/m_WebSite/script/eg.js",
+		"/E/m_WebSite/Graphics.html",
+		"/E/Shading/NPR_lab/Assets/Shaders/PencilSketchShading.shader",
+		"/E/VSProjects/OpenGLwithGLFW/GL_ADVANCED/shaders/rimShader.frag"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"int",
+			"铁甲依然在",
+			"     \n",
+			"stick：setPosition",
+			"updateScore",
+			"deathRoll",
+			"isFirst",
+			"RotateTo",
+			"print",
+			"stick",
+			"rotate",
+			"SpriteFrames",
+			"SpriteFramew",
+			"SpriteFrame",
+			"0f",
+			"ACTION",
+			"visible",
+			"ACTION"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			")\n",
+			"self",
+			"SampleScene"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
+	"project": "Unicorn_Engine.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"E:\\VSProjects\\OpenGLwithGLFW\\GL_ADVANCED\\shaders\\fragmentShader.frag"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 154.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

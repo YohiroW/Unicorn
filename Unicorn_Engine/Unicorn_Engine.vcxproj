@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Include\UcAnimateCtrl.cpp" />
+    <ClCompile Include="..\Include\UcBillboard.cpp" />
+    <ClCompile Include="..\Include\UcBoundingBox.cpp" />
+    <ClCompile Include="..\Include\UcDirectionalLight.cpp" />
+    <ClCompile Include="..\Include\UcFrameBuffer.cpp" />
+    <ClCompile Include="..\Include\UcGLBuffer.cpp" />
+    <ClCompile Include="..\Include\UcLinkList.cpp" />
+    <ClCompile Include="..\Include\UcMap.cpp" />
+    <ClCompile Include="..\Include\UcMath.cpp" />
+    <ClCompile Include="..\Include\UcModel.cpp" />
+    <ClCompile Include="..\Include\TestScene.cpp" />
+    <ClCompile Include="..\Include\UcAnimateMgr.cpp" />
+    <ClCompile Include="..\Include\UcApplication.cpp" />
+    <ClCompile Include="..\Include\UcBuffer.cpp" />
+    <ClCompile Include="..\Include\UcCamera.cpp" />
+    <ClCompile Include="..\Include\UcColor.cpp" />
+    <ClCompile Include="..\Include\UcComponent.cpp" />
+    <ClCompile Include="..\Include\UcController.cpp" />
+    <ClCompile Include="..\Include\UcCube.cpp" />
+    <ClCompile Include="..\Include\UcCubeTexture.cpp" />
+    <ClCompile Include="..\Include\UcEntity.cpp" />
+    <ClCompile Include="..\Include\UcEvent.cpp" />
+    <ClCompile Include="..\Include\UcEventDispatcher.cpp" />
+    <ClCompile Include="..\Include\UcConsole.cpp" />
+    <ClCompile Include="..\Include\UcEventNode.cpp" />
+    <ClCompile Include="..\Include\UcFont.cpp" />
+    <ClCompile Include="..\Include\UcGame.cpp" />
+    <ClCompile Include="..\Include\UcHud.cpp" />
+    <ClCompile Include="..\Include\UcIndexBuffer.cpp" />
+    <ClCompile Include="..\Include\UcLight.cpp" />
+    <ClCompile Include="..\Include\UcLogger.cpp" />
+    <ClCompile Include="..\Include\UcMainCamera.cpp" />
+    <ClCompile Include="..\Include\UcMaterial.cpp" />
+    <ClCompile Include="..\Include\UcMemPool.cpp" />
+    <ClCompile Include="..\Include\UcMemPoolMgr.cpp" />
+    <ClCompile Include="..\Include\UcMesh.cpp" />
+    <ClCompile Include="..\Include\UcMotion.cpp" />
+    <ClCompile Include="..\Include\UcNode.cpp" />
+    <ClCompile Include="..\Include\UcNodePtr.cpp" />
+    <ClCompile Include="..\Include\UcParticleMgr.cpp" />
+    <ClCompile Include="..\Include\UcParticles.cpp" />
+    <ClCompile Include="..\Include\UcPlane.cpp" />
+    <ClCompile Include="..\Include\UcPointLight.cpp" />
+    <ClCompile Include="..\Include\UcQuaternion.cpp" />
+    <ClCompile Include="..\Include\UcRandomTexture.cpp" />
+    <ClCompile Include="..\Include\UcRay.cpp" />
+    <ClCompile Include="..\Include\UcRenderableObject.cpp" />
+    <ClCompile Include="..\Include\UcRenderCommand.cpp" />
+    <ClCompile Include="..\Include\UcRenderData.cpp" />
+    <ClCompile Include="..\Include\UcRenderer.cpp" />
+    <ClCompile Include="..\Include\UcRendererComponenet.cpp" />
+    <ClCompile Include="..\Include\UcRenderQueue.cpp" />
+    <ClCompile Include="..\Include\UcScene.cpp" />
+    <ClCompile Include="..\Include\UcSceneMgr.cpp" />
+    <ClCompile Include="..\Include\UcShader.cpp" />
+    <ClCompile Include="..\Include\UcShaderMgr.cpp" />
+    <ClCompile Include="..\Include\UcShaderProgram.cpp" />
+    <ClCompile Include="..\Include\UcShadowMap.cpp" />
+    <ClCompile Include="..\Include\UcSize.cpp" />
+    <ClCompile Include="..\Include\UcSkybox.cpp" />
+    <ClCompile Include="..\Include\UcSmartPtr.cpp" />
+    <ClCompile Include="..\Include\UcStandardMemPool.cpp" />
+    <ClCompile Include="..\Include\UcText.cpp" />
+    <ClCompile Include="..\Include\UcTexture.cpp" />
+    <ClCompile Include="..\Include\UcTextureMap.cpp" />
+    <ClCompile Include="..\Include\UcToolBox.cpp" />
+    <ClCompile Include="..\Include\UcTransform.cpp" />
+    <ClCompile Include="..\Include\UcTweener.cpp" />
+    <ClCompile Include="..\Include\UcVector3.cpp" />
+    <ClCompile Include="..\Include\UcGLVertexBuffer.cpp" />
+    <ClCompile Include="..\Include\UcVertexBuffer.cpp" />
+    <ClCompile Include="..\Include\UcViewport.cpp" />
+    <ClCompile Include="..\Include\UcReference.cpp" />
+    <ClCompile Include="..\Include\UcRenderMgr.cpp" />
+    <ClCompile Include="..\Include\UcTextureMgr.cpp" />
+    <ClCompile Include="..\Include\UcObject.cpp" />
+    <ClCompile Include="..\Include\UcPackage.cpp" />
+    <ClCompile Include="..\Include\UcVector2.cpp" />
+    <ClCompile Include="..\Include\UcVBuffer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="UcMatrix.cpp" />
+    <ClCompile Include="UcMeshes.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\Sample.h" />
+    <ClInclude Include="..\Include\SampleBillboard.h" />
+    <ClInclude Include="..\Include\SampleParticle.h" />
+    <ClInclude Include="..\Include\TestScene.h" />
+    <ClInclude Include="..\Include\UcAllocator.h" />
+    <ClInclude Include="..\Include\UcFrameBuffer.h" />
+    <ClInclude Include="..\Include\UcGLBuffer.h" />
+    <ClInclude Include="..\Include\UcLinkList.h" />
+    <ClInclude Include="..\Include\UcMotion.h" />
+    <ClInclude Include="..\Include\UcPlane.h" />
+    <ClInclude Include="..\Include\UcShadowMap.h" />
+    <ClInclude Include="..\Include\UcStandardMemPool.h" />
+    <ClInclude Include="..\Include\UcText.h" />
+    <ClInclude Include="..\Include\UcTextureMap.h" />
+    <ClInclude Include="..\Include\UcTweener.h" />
+    <ClInclude Include="..\Include\UcAnimateCtrl.h" />
+    <ClInclude Include="..\Include\UcBillboard.h" />
+    <ClInclude Include="..\Include\UcBoundingBox.h" />
+    <ClInclude Include="..\Include\UcDirectionalLight.h" />
+    <ClInclude Include="..\Include\UcGLSettings.h" />
+    <ClInclude Include="..\Include\UcMap.h" />
+    <ClInclude Include="..\Include\UcMath.h" />
+    <ClInclude Include="..\Include\UcMathTool.h" />
+    <ClInclude Include="..\Include\UcModel.h" />
+    <ClInclude Include="..\Include\UcAnimateMgr.h" />
+    <ClInclude Include="..\Include\UcApplication.h" />
+    <ClInclude Include="..\Include\UcBuffer.h" />
+    <ClInclude Include="..\Include\UcCamera.h" />
+    <ClInclude Include="..\Include\UcColor.h" />
+    <ClInclude Include="..\Include\UcComponent.h" />
+    <ClInclude Include="..\Include\UcConfig.h" />
+    <ClInclude Include="..\Include\UcController.h" />
+    <ClInclude Include="..\Include\UcCube.h" />
+    <ClInclude Include="..\Include\UcCubeTexture.h" />
+    <ClInclude Include="..\Include\UcEntity.h" />
+    <ClInclude Include="..\Include\UcEvent.h" />
+    <ClInclude Include="..\Include\UcEventDispatcher.h" />
+    <ClInclude Include="..\Include\UcEventNode.h" />
+    <ClInclude Include="..\Include\UcFont.h" />
+    <ClInclude Include="..\Include\UcGame.h" />
+    <ClInclude Include="..\Include\UcGLMapping.h" />
+    <ClInclude Include="..\Include\UcHud.h" />
+    <ClInclude Include="..\Include\UcIndexBuffer.h" />
+    <ClInclude Include="..\Include\UcLight.h" />
+    <ClInclude Include="..\Include\UcLogger.h" />
+    <ClInclude Include="..\Include\UcMainCamera.h" />
+    <ClInclude Include="..\Include\UcMaterial.h" />
+    <ClInclude Include="..\Include\UcMatrix.h" />
+    <ClInclude Include="..\Include\UcMemPool.h" />
+    <ClInclude Include="..\Include\UcMemPoolMgr.h" />
+    <ClInclude Include="..\Include\UcMesh.h" />
+    <ClInclude Include="..\Include\UcMotionForms.h" />
+    <ClInclude Include="..\Include\UcNode.h" />
+    <ClInclude Include="..\Include\UcNodePtr.h" />
+    <ClInclude Include="..\Include\UcParticleMgr.h" />
+    <ClInclude Include="..\Include\UcParticles.h" />
+    <ClInclude Include="..\Include\UcPointLight.h" />
+    <ClInclude Include="..\Include\UcQuaternion.h" />
+    <ClInclude Include="..\Include\UcRandomTexture.h" />
+    <ClInclude Include="..\Include\UcRay.h" />
+    <ClInclude Include="..\Include\UcRenderableObject.h" />
+    <ClInclude Include="..\Include\UcRenderCommand.h" />
+    <ClInclude Include="..\Include\UcRenderData.h" />
+    <ClInclude Include="..\Include\UcRenderer.h" />
+    <ClInclude Include="..\Include\UcRendererComponent.h" />
+    <ClInclude Include="..\Include\UcRenderQueue.h" />
+    <ClInclude Include="..\Include\UcScene.h" />
+    <ClInclude Include="..\Include\UcSceneMgr.h" />
+    <ClInclude Include="..\Include\UcShader.h" />
+    <ClInclude Include="..\Include\UcShaderMgr.h" />
+    <ClInclude Include="..\Include\UcShaderProgram.h" />
+    <ClInclude Include="..\Include\UcSize.h" />
+    <ClInclude Include="..\Include\UcSkybox.h" />
+    <ClInclude Include="..\Include\UcSmartPtr.h" />
+    <ClInclude Include="..\Include\UcStruct.h" />
+    <ClInclude Include="..\Include\UcTexture.h" />
+    <ClInclude Include="..\Include\UcToolBox.h" />
+    <ClInclude Include="..\Include\UcTransform.h" />
+    <ClInclude Include="..\Include\UcTypes.h" />
+    <ClInclude Include="..\Include\UcVector3.h" />
+    <ClInclude Include="..\Include\UcGLVertexBuffer.h" />
+    <ClInclude Include="..\Include\UcVertexBuffer.h" />
+    <ClInclude Include="..\Include\UcViewport.h" />
+    <ClInclude Include="..\Include\UcMacros.h" />
+    <ClInclude Include="..\Include\UcReference.h" />
+    <ClInclude Include="..\Include\UcRenderMgr.h" />
+    <ClInclude Include="..\Include\UcTextureMgr.h" />
+    <ClInclude Include="..\Include\UcConsole.h" />
+    <ClInclude Include="..\Include\UcObject.h" />
+    <ClInclude Include="..\Include\UcPackage.h" />
+    <ClInclude Include="..\Include\UcWidget.h" />
+    <ClInclude Include="..\Include\Unicorn.h" />
+    <ClInclude Include="..\Include\UcVector2.h" />
+    <ClInclude Include="..\Include\UcVBuffer.h" />
+    <ClInclude Include="UcMeshes.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Include\UcGame.inl">
+      <FileType>Document</FileType>
+    </None>
+    <None Include="..\Include\UcScene.inl" />
+    <None Include="..\Include\UcStandardMemPool.inl" />
+    <None Include="res\shader\advanced.frag" />
+    <None Include="res\shader\advanced.vs" />
+    <None Include="res\shader\default_billboard.frag" />
+    <None Include="res\shader\default_billboard.geos" />
+    <None Include="res\shader\default_billboard.vs" />
+    <None Include="res\shader\default_fragShader.frag" />
+    <None Include="res\shader\default_hdrShader.frag" />
+    <None Include="res\shader\default_hdrShader.vs" />
+    <None Include="res\shader\default_model.frag" />
+    <None Include="res\shader\default_model.vs" />
+    <None Include="res\shader\default_particle.frag" />
+    <None Include="res\shader\default_particle.vs" />
+    <None Include="res\shader\default_skybox.frag" />
+    <None Include="res\shader\default_skybox.vs" />
+    <None Include="res\shader\default_vertexShader.vs" />
+    <None Include="res\shader\particles.frag" />
+    <None Include="res\shader\particles.vs" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CD012129-BD1A-46E4-B492-617CCF4634A7}</ProjectGuid>
+    <RootNamespace>Unicorn_Engine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\用户目录\我的文档\Visual Studio 2013\Projects\Unicorn_Engine\Include;D:\用户目录\我的文档\Visual Studio 2013\Projects\Unicorn_Engine\Unicorn_Engine\res;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\用户目录\我的文档\Visual Studio 2013\Projects\Unicorn_Engine\Lib;$(LibraryPath)</LibraryPath>
+    <SourcePath>D:\用户目录\我的文档\Visual Studio 2013\Projects\Unicorn_Engine\Source;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>D:\用户目录\我的文档\Visual Studio 2013\Projects\Unicorn_Engine\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\用户目录\我的文档\Visual Studio 2013\Projects\Unicorn_Engine\Lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <AdditionalOptions> /D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>glfw3.lib;glew32.lib;opengl32.lib;SOIL.lib;FreeImaged.lib;assimp.lib;freetype28.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalOptions> /D _CRT_SECURE_NO_WARNINGS %(AdditionalOptions)</AdditionalOptions>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>glfw3.lib;glew32.lib;opengl32.lib;SOIL.lib;FreeImaged.lib;assimp.lib;freetype28.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{ec9b9cf9-d96e-42f2-a0b9-c875e713590c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{11ed9b84-1419-424a-81f4-cdb5c8792aaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{6ce06ab2-3fdd-486f-af02-4cbe5ad6d5ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{cd3c4410-453d-417a-896e-958f4c86dae5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Memory">
+      <UniqueIdentifier>{420f681c-0f30-4f97-9586-d7ac57707929}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameLogic">
+      <UniqueIdentifier>{bafc76c4-8909-4432-be41-906b427b9912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animation">
+      <UniqueIdentifier>{b06920f0-f56d-4296-9a27-0f7bf4c507e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{aa22f685-1fbe-4cf9-a080-ed08f8f103d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shader">
+      <UniqueIdentifier>{5e02a053-fa11-4145-a50e-34fcf9d48b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Physics">
+      <UniqueIdentifier>{3ea081e2-f93c-4e91-9e43-3c5573416e10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="z_Samples">
+      <UniqueIdentifier>{fe730442-4c7d-42c5-a549-1a0b97421afc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Include\UcPackage.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcViewport.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcGame.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcApplication.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcConsole.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcMemPoolMgr.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcReference.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcMemPool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcEventDispatcher.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcRenderMgr.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcTextureMgr.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcRenderer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcEvent.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcComponent.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcObject.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcToolBox.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcShader.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcCamera.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcTexture.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcIndexBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcCubeTexture.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcScene.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcVector2.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcVector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcSize.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcVBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcEntity.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcMaterial.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcSceneMgr.cpp">
+      <Filter>GameLogic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcGLVertexBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcVertexBuffer.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcMesh.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcRenderCommand.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcSmartPtr.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcRendererComponenet.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcShaderProgram.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcShaderMgr.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcColor.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcSkybox.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcRenderableObject.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcNode.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcController.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcEventNode.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcNodePtr.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcLight.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcLogger.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcMainCamera.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcAnimateMgr.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcHud.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcFont.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcRay.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcTransform.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="UcMatrix.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcQuaternion.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcRenderData.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcCube.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcModel.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcRenderQueue.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcMap.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcDirectionalLight.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcPointLight.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcParticles.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcParticleMgr.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcBillboard.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="UcMeshes.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcRandomTexture.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcBoundingBox.cpp">
+      <Filter>Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcAnimateCtrl.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcTweener.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcMotion.cpp">
+      <Filter>Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcMath.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcStandardMemPool.cpp">
+      <Filter>Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcShadowMap.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcTextureMap.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcFrameBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcGLBuffer.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcPlane.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\TestScene.cpp">
+      <Filter>z_Samples</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcText.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Include\UcLinkList.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Include\UcPackage.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcConsole.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcViewport.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcGame.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcApplication.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMacros.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMemPoolMgr.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcReference.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMemPool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcEventDispatcher.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcRenderMgr.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcTextureMgr.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcRenderer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcEvent.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcComponent.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcObject.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcToolBox.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcShader.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcCamera.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcTexture.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcIndexBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcCubeTexture.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcColor.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcScene.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcVector2.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcVector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMatrix.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcSize.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcVBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcEntity.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMaterial.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcSceneMgr.h">
+      <Filter>GameLogic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcGLVertexBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcVertexBuffer.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcGLMapping.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMesh.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcRenderCommand.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcSmartPtr.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcStruct.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcRendererComponent.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcShaderProgram.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcShaderMgr.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcSkybox.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcRenderableObject.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcTypes.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcNode.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcConfig.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Unicorn.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcController.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcEventNode.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcNodePtr.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcLight.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcLogger.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMainCamera.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcAnimateMgr.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcHud.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcFont.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcRay.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcTransform.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcQuaternion.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcRenderData.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcCube.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcModel.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcGLSettings.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcRenderQueue.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMathTool.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMap.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcDirectionalLight.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcPointLight.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcParticles.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcParticleMgr.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcBillboard.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="UcMeshes.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcRandomTexture.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcBoundingBox.h">
+      <Filter>Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMotionForms.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcAnimateCtrl.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcTweener.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcMotion.h">
+      <Filter>Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcStandardMemPool.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcAllocator.h">
+      <Filter>Memory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcShadowMap.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcTextureMap.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcFrameBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcGLBuffer.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcPlane.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcWidget.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\TestScene.h">
+      <Filter>z_Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SampleParticle.h">
+      <Filter>z_Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\Sample.h">
+      <Filter>z_Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcText.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\SampleBillboard.h">
+      <Filter>z_Samples</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Include\UcLinkList.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Include\UcGame.inl">
+      <Filter>Base</Filter>
+    </None>
+    <None Include="..\Include\UcScene.inl">
+      <Filter>Render</Filter>
+    </None>
+    <None Include="res\shader\advanced.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\advanced.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_billboard.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_billboard.geos">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_billboard.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_fragShader.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_hdrShader.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_hdrShader.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_model.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_model.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_particle.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_particle.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_skybox.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_skybox.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\default_vertexShader.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\particles.frag">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="res\shader\particles.vs">
+      <Filter>Shader</Filter>
+    </None>
+    <None Include="..\Include\UcStandardMemPool.inl">
+      <Filter>Memory</Filter>
+    </None>
+  </ItemGroup>
+</Project>

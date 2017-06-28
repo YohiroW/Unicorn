@@ -1,0 +1,134 @@
+﻿生成启动时间为 2017/6/2 10:26:03。
+     1>项目“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Unicorn_Engine\Unicorn_Engine.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt  /D _CRT_SECURE_NO_WARNINGS ..\Include\TestScene.cpp ..\Include\UcStandardMemPool.cpp
+         TestScene.cpp
+     1>d:\用户目录\我的文档\visual studio 2013\projects\unicorn_engine\include\UcMath.h(50): warning C4244: “return”: 从“const int”转换到“float”，可能丢失数据
+     1>D:\用户目录\我的文档\Visual Studio 2013\Projects\Unicorn_Engine\Include\freetype/freetype.h(2619): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\用户目录\我的文档\visual studio 2013\projects\unicorn_engine\include\UcFont.h(52): warning C4244: “return”: 从“const unsigned int”转换到“float”，可能丢失数据
+     1>d:\用户目录\我的文档\visual studio 2013\projects\unicorn_engine\include\UcFont.h(52): warning C4244: “=”: 从“const float”转换到“unsigned int”，可能丢失数据
+     1>..\Include\TestScene.cpp(52): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\Include\TestScene.cpp(53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\Include\TestScene.cpp(58): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\Include\TestScene.cpp(59): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\Include\TestScene.cpp(64): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>..\Include\TestScene.cpp(65): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         UcStandardMemPool.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\shared\minwindef.h(130): warning C4005: “APIENTRY”: 宏重定义
+                 D:\用户目录\我的文档\Visual Studio 2013\Projects\Unicorn_Engine\Include\GLFW/glfw3.h(98) : 参见“APIENTRY”的前一个定义
+       Link:
+         D:\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\Unicorn_Engine.exe" /NOLOGO glfw3.lib glew32.lib opengl32.lib SOIL.lib FreeImaged.lib assimp.lib freetype28.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\Unicorn_Engine.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\Unicorn_Engine.lib" /MACHINE:X86 /SAFESEH Release\UcAnimateCtrl.obj
+         Release\UcBillboard.obj
+         Release\UcBoundingBox.obj
+         Release\UcDirectionalLight.obj
+         Release\UcFrameBuffer.obj
+         Release\UcGLBuffer.obj
+         Release\UcLinkList.obj
+         Release\UcMap.obj
+         Release\UcMath.obj
+         Release\UcModel.obj
+         Release\TestScene.obj
+         Release\UcAnimateMgr.obj
+         Release\UcApplication.obj
+         Release\UcBuffer.obj
+         Release\UcCamera.obj
+         Release\UcColor.obj
+         Release\UcComponent.obj
+         Release\UcController.obj
+         Release\UcCube.obj
+         Release\UcCubeTexture.obj
+         Release\UcEntity.obj
+         Release\UcEvent.obj
+         Release\UcEventDispatcher.obj
+         Release\UcConsole.obj
+         Release\UcEventNode.obj
+         Release\UcFont.obj
+         Release\UcGame.obj
+         Release\UcHud.obj
+         Release\UcIndexBuffer.obj
+         Release\UcLight.obj
+         Release\UcLogger.obj
+         Release\UcMainCamera.obj
+         Release\UcMaterial.obj
+         Release\UcMemPool.obj
+         Release\UcMemPoolMgr.obj
+         Release\UcMesh.obj
+         Release\UcMotion.obj
+         Release\UcNode.obj
+         Release\UcNodePtr.obj
+         Release\UcParticleMgr.obj
+         Release\UcParticles.obj
+         Release\UcPlane.obj
+         Release\UcPointLight.obj
+         Release\UcQuaternion.obj
+         Release\UcRandomTexture.obj
+         Release\UcRay.obj
+         Release\UcRenderableObject.obj
+         Release\UcRenderCommand.obj
+         Release\UcRenderData.obj
+         Release\UcRenderer.obj
+         Release\UcRendererComponenet.obj
+         Release\UcRenderQueue.obj
+         Release\UcScene.obj
+         Release\UcSceneMgr.obj
+         Release\UcShader.obj
+         Release\UcShaderMgr.obj
+         Release\UcShaderProgram.obj
+         Release\UcShadowMap.obj
+         Release\UcSize.obj
+         Release\UcSkybox.obj
+         Release\UcSmartPtr.obj
+         Release\UcStandardMemPool.obj
+         Release\UcText.obj
+         Release\UcTexture.obj
+         Release\UcTextureMap.obj
+         Release\UcToolBox.obj
+         Release\UcTransform.obj
+         Release\UcTweener.obj
+         Release\UcVector3.obj
+         Release\UcGLVertexBuffer.obj
+         Release\UcVertexBuffer.obj
+         Release\UcViewport.obj
+         Release\UcReference.obj
+         Release\UcRenderMgr.obj
+         Release\UcTextureMgr.obj
+         Release\UcObject.obj
+         Release\UcPackage.obj
+         Release\UcVector2.obj
+         Release\UcVBuffer.obj
+         Release\main.obj
+         Release\UcMatrix.obj
+         Release\UcMeshes.obj
+     1>SOIL.lib(SOIL.obj) : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:ICF”规范)
+     1>LINK : warning LNK4098: 默认库“MSVCRTD”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+         正在生成代码
+         已完成代码的生成
+     1>freetype28.lib(autofit.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(autofit.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(bdf.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(bdf.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(cff.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(cff.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(ftbase.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(ftbase.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(ftbitmap.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(ftbitmap.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(ftdebug.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(ftdebug.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(ftgzip.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(ftgzip.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(ftinit.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(ftinit.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(ftlzw.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(ftlzw.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(ftsystem.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(ftsystem.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(smooth.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(smooth.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(pcf.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(pcf.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(pfr.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(pfr.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(psaux.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(psaux.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(pshinter.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(pshinter.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(psmodule.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(psmodule.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(raster.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(raster.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(sfnt.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(sfnt.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(truetype.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(truetype.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(type1.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(type1.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(type1cid.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(type1cid.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(type42.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(type42.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>freetype28.lib(winfnt.obj) : warning LNK4099: 未找到 PDB“freetype28d.pdb”(使用“freetype28.lib(winfnt.obj)”或在“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\freetype28d.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         Unicorn_Engine.vcxproj -> d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Release\Unicorn_Engine.exe
+     1>已完成生成项目“d:\用户目录\我的文档\visual studio 2013\Projects\Unicorn_Engine\Unicorn_Engine\Unicorn_Engine.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.46
